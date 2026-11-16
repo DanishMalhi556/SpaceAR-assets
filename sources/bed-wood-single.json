@@ -1,0 +1,15 @@
+{
+ "source": "Sketchfab",
+ "title": "Bed - Sample",
+ "url": "https://sketchfab.com/3d-models/bed-sample-b547d81073b64d3e97200fd3ae9a74af",
+ "authors": [
+  "Mifu Saja"
+ ],
+ "author_url": "https://sketchfab.com/mifusaja",
+ "licence": "CC-BY 4.0",
+ "licence_as_reported": "CC Attribution",
+ "downloaded": "2026-11-17",
+ "id": "bed-wood-single",
+ "name": "Wooden Single Bed",
+ "changes": "Converted to GLB, re-centred, textures resized to \u22641024 px; product image cropped and converted to WebP."
+}

@@ -1,6 +1,6 @@
 # SpaceAR assets
 
-Public catalog images and 3D models for the SpaceAR app, served free through
+Public catalog images and 3D models (100 items) for the SpaceAR app, served free through
 the **jsDelivr CDN**. The app's code lives in a separate private repository;
 this repository holds only freely licensed assets.
 
@@ -58,14 +58,27 @@ and copy `tools/items.json` into it first.
 
 | Step | Command | Result |
 |---|---|---|
-| 1. Download | `python tools/download_assets.py <work>` | Raw models + renders in `<work>/raw/<id>/`, licence info in `<work>/sources.json` |
-| 2. Models | `cd tools && npm install && node optimize.mjs <work> ..` then `node validate.mjs ../models` | `models/<id>.glb`: base centred on the floor, unused data removed, textures ≤ 1024 px; then checked with the Khronos glTF validator |
-| 3. Images | `python tools/make_images.py <work> . <SpaceAR>/backend` | `images/<id>.webp` (800 × 800, padded, transparent where the source is) and `<work>/colors.json` |
+| 1. Download | `python tools/download_assets.py <work> [items file]` | Raw models + renders in `<work>/raw/<id>/`, licence info merged into `<work>/sources.json` |
+| 2. Models | `cd tools && npm install && node optimize.mjs <work> .. [id,id]` then `node validate.mjs ../models` | `models/<id>.glb`: real-world scale, front facing +Z, base centred on the floor, metal-rough materials, textures ≤ 1024 px; then the Khronos glTF validator |
+| 2b. Check | `node inspect.mjs <glb>...` and `node names.mjs <glb>...` | Part sizes (to spot wrong units or stray props) and hidden brand names in part/material names |
+| 2c. Renders | `node render.mjs ../models <work>/renders <id,id>` (`RENDER_SIDES=1` for all four sides) | Transparent product shots from headless Chrome + three.js; copy to `<work>/raw/<id>/render.png` for items without a clean source image |
+| 3. Images | `python tools/make_images.py <work> . <SpaceAR>/backend [id,id]` | `images/<id>.webp` (800 × 800, padded, transparent where the source is) and `<work>/colors.json` |
 | 4. Credits | `python tools/write_licenses.py <work> .` | `LICENSES.md` and `sources/<id>.json` |
 | 5. Catalog | `python tools/build_seed.py <work> <SpaceAR>/backend v<N>` | `backend/data/catalog_seed.json` in the SpaceAR repo |
 
 Steps 3 and 5 import the SpaceAR backend's colour, style and item-type code,
 so catalog colours and types match what the recommender uses.
+
+**Per-model fixes** (unit scale, turning to face forward, removing loose
+props) live in `FIX` in `optimize.mjs`, each with the reason. Sketchfab models
+often use centimetres, millimetres or arbitrary units: scale from a reference
+part (seat height, mattress size, leg height), and check the front from
+`RENDER_SIDES=1` renders.
+
+**Sketchfab downloads** need your API token (Sketchfab → Settings →
+Password & API) in `.sketchfab_token` at the repo root. It's git-ignored;
+never commit it. Only CC Attribution models are downloaded, and the licence is
+re-checked at download time.
 
 ## Releasing a new version
 

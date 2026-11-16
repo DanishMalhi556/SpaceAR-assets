@@ -2,12 +2,14 @@
   "name": "spacear-assets-tools",
   "private": true,
   "type": "module",
-  "description": "Model optimisation and validation for the SpaceAR asset pipeline",
+  "description": "Model optimisation, validation and product renders for the SpaceAR asset pipeline",
   "dependencies": {
     "@gltf-transform/core": "4.1.1",
     "@gltf-transform/extensions": "4.1.1",
     "@gltf-transform/functions": "4.1.1",
     "gltf-validator": "2.0.0-dev.3.10",
-    "sharp": "0.33.5"
+    "puppeteer-core": "23.11.1",
+    "sharp": "0.33.5",
+    "three": "0.170.0"
   }
 }

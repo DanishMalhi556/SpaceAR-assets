@@ -20,6 +20,7 @@ RULES = {
 
 
 def main() -> int:
+    sys.stdout.reconfigure(encoding="utf-8")  # Windows consoles default to cp1252
     errors: list[str] = []
     warnings: list[str] = []
     licences = (ROOT / "LICENSES.md").read_text(encoding="utf-8")

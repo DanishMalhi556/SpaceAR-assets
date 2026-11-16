@@ -48,6 +48,31 @@ KIND_WORDS = {  # description wording per type (must not change the type)
 items = json.loads((work / "items.json").read_text(encoding="utf-8"))
 dims = json.loads((work / "models_report.json").read_text(encoding="utf-8"))
 colors = json.loads((work / "colors.json").read_text(encoding="utf-8"))
+sources = json.loads((work / "sources.json").read_text(encoding="utf-8"))
+
+LICENCE_URL = {
+    "CC0": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "CC-BY 4.0": "https://creativecommons.org/licenses/by/4.0/",
+}
+
+
+def credit_for(s: dict) -> dict:
+    """Same author wording as LICENSES.md (write_licenses.py)."""
+    if s.get("authors") is not None:  # Poly Haven
+        author = ", ".join(s["authors"]) or s["source"]
+    else:
+        people = []
+        for l in s.get("legal", []):
+            who = l.get("owner") or l.get("artist") or ""
+            if l.get("artist") and l.get("artist") != who:
+                who += f" ({l['artist']})"
+            if who and who not in people:
+                people.append(who)
+        author = "; ".join(people) or s.get("credit", "")
+    licence = s["licence"]
+    # A mixed licence ("CC0 + CC-BY 4.0") links to the stricter one.
+    url = LICENCE_URL["CC-BY 4.0"] if "BY" in licence else LICENCE_URL["CC0"]
+    return {"title": s["title"], "author": author, "licence": licence, "licence_url": url, "source_url": s["url"]}
 
 seed = []
 for it in items:
@@ -71,6 +96,7 @@ for it in items:
         width_in=w, depth_in=dp, height_in=h, tag="AR ready", description=description,
         style_tags=styles, colors=colors[cid],
         image_url=f"{CDN}/images/{cid}.webp", model_url=f"{CDN}/models/{cid}.glb",
+        credit=credit_for(sources[cid]),
     )
     assert item_kind(item) == kind, f"{cid}: description changed the type"
     row = item.model_dump(exclude_none=True)

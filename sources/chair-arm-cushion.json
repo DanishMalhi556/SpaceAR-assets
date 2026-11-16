@@ -1,0 +1,15 @@
+{
+ "source": "Sketchfab",
+ "title": "Mid-Century Modern Chair",
+ "url": "https://sketchfab.com/3d-models/mid-century-modern-chair-afc4b601ed2d434982959be87526909f",
+ "authors": [
+  "rcaicedo"
+ ],
+ "author_url": "https://sketchfab.com/rcaicedo",
+ "licence": "CC-BY 4.0",
+ "licence_as_reported": "CC Attribution",
+ "downloaded": "2026-11-17",
+ "id": "chair-arm-cushion",
+ "name": "Mid-Century Cushioned Armchair",
+ "changes": "Converted to GLB, re-centred, textures resized to \u22641024 px; product image cropped and converted to WebP."
+}

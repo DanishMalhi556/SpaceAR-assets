@@ -1,6 +1,6 @@
 """Product images and colours for every downloaded item.
 
-    python -I make_images.py <work dir> <assets repo> <backend dir>
+    python -I make_images.py <work dir> <assets repo> <backend dir> [id,id,...]
 
 - Transparent renders (Poly Haven): trimmed to the product, centred on an
   800 x 800 transparent square with padding, saved as WebP.
@@ -84,8 +84,12 @@ def remove_background(img: Image.Image, tolerance: int = 38) -> Image.Image:
     return out
 
 
-out = {}
+only = set(sys.argv[4].split(",")) if len(sys.argv) > 4 else None  # optional: just these ids
+colors_file = work / "colors.json"
+out = json.loads(colors_file.read_text(encoding="utf-8")) if only and colors_file.exists() else {}
 for d in sorted((work / "raw").iterdir()):
+    if only and d.name not in only:
+        continue
     src = next(p for p in (d / "render.png", d / "render.jpg") if p.exists())
     img = Image.open(src)
     if src.suffix == ".jpg":  # studio screenshot with a background

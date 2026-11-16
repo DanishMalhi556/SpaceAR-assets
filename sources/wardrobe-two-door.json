@@ -1,0 +1,15 @@
+{
+ "source": "Sketchfab",
+ "title": "Wardrobe",
+ "url": "https://sketchfab.com/3d-models/wardrobe-e48bb01993c7464ea09a02465c87d25d",
+ "authors": [
+  "rizky alamsyah"
+ ],
+ "author_url": "https://sketchfab.com/rizki29",
+ "licence": "CC-BY 4.0",
+ "licence_as_reported": "CC Attribution",
+ "downloaded": "2026-11-17",
+ "id": "wardrobe-two-door",
+ "name": "Two-Door Wardrobe",
+ "changes": "Converted to GLB, re-centred, textures resized to \u22641024 px; product image cropped and converted to WebP."
+}

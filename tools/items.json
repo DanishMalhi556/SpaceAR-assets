@@ -796,5 +796,356 @@
   ],
   "licence": "CC-BY 4.0",
   "credit": "Wayfair"
+ },
+ {
+  "source": "sketchfab",
+  "src": "3e2a60cb3d2c42e5bdfab33d396f85e2",
+  "id": "light-floor-minimal",
+  "name": "Minimal Reading Floor Lamp",
+  "category": "lighting",
+  "styles": [
+   "modern",
+   "minimalist"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "Jack John"
+ },
+ {
+  "source": "sketchfab",
+  "src": "083c9408b89949d8b201e8a1bb6ce41c",
+  "id": "light-floor-black",
+  "name": "Black Metal Floor Lamp",
+  "category": "lighting",
+  "styles": [
+   "modern",
+   "industrial"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "Justin.Foley"
+ },
+ {
+  "source": "sketchfab",
+  "src": "1aa6739d774348efa691340e3a12b870",
+  "id": "light-floor-drum",
+  "name": "Tripod Drum Floor Lamp",
+  "category": "lighting",
+  "styles": [
+   "scandinavian",
+   "mid-century"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "alpaca."
+ },
+ {
+  "source": "sketchfab",
+  "src": "b804cad1c6454089870780abf5f31ae3",
+  "id": "light-floor-andon",
+  "name": "Japanese Andon Floor Lamp",
+  "category": "lighting",
+  "styles": [
+   "japandi",
+   "minimalist"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "Akio"
+ },
+ {
+  "source": "sketchfab",
+  "src": "61bdf5230e5f44b3b5ea53d95f2ab872",
+  "id": "light-floor-classic",
+  "name": "Classic Shade Floor Lamp",
+  "category": "lighting",
+  "styles": [
+   "classic",
+   "traditional"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "Agha.Najam"
+ },
+ {
+  "source": "sketchfab",
+  "src": "5610453d90754b6d8ec982bae336f94e",
+  "id": "bed-upholstered",
+  "name": "Upholstered Modern Bed",
+  "category": "bed",
+  "styles": [
+   "modern",
+   "contemporary"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "Ren Viro Store"
+ },
+ {
+  "source": "sketchfab",
+  "src": "d3aeb724e09c44af96ef09cd20885220",
+  "id": "bed-platform-dark",
+  "name": "Dark Platform Bed",
+  "category": "bed",
+  "styles": [
+   "modern",
+   "minimalist"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "Ren Viro Store"
+ },
+ {
+  "source": "sketchfab",
+  "src": "b547d81073b64d3e97200fd3ae9a74af",
+  "id": "bed-wood-single",
+  "name": "Wooden Single Bed",
+  "category": "bed",
+  "styles": [
+   "scandinavian",
+   "minimalist"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "Mifu Saja"
+ },
+ {
+  "source": "sketchfab",
+  "src": "e48bb01993c7464ea09a02465c87d25d",
+  "id": "wardrobe-two-door",
+  "name": "Two-Door Wardrobe",
+  "category": "wardrobe",
+  "styles": [
+   "modern",
+   "minimalist"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "rizky alamsyah"
+ },
+ {
+  "source": "sketchfab",
+  "src": "aff452c30e724283ae2c4f17297e0ef7",
+  "id": "wardrobe-modern-wood",
+  "name": "Modern Wooden Wardrobe",
+  "category": "wardrobe",
+  "styles": [
+   "modern",
+   "contemporary"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "M4nT1Core"
+ },
+ {
+  "source": "sketchfab",
+  "src": "ff6b1e300f644766b1243860a8b6eebb",
+  "id": "wardrobe-oak",
+  "name": "Oak Wardrobe Cabinet",
+  "category": "wardrobe",
+  "styles": [
+   "scandinavian",
+   "modern"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "Manix3D"
+ },
+ {
+  "source": "sketchfab",
+  "src": "399a19c7e4f2416d8eb1a2f1b509dc7b",
+  "id": "wardrobe-folk",
+  "name": "Floral Folk Armoire",
+  "category": "wardrobe",
+  "styles": [
+   "boho",
+   "traditional"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "alicean"
+ },
+ {
+  "source": "sketchfab",
+  "src": "25134a84c07e420b93cae181731fd7a0",
+  "id": "wardrobe-dresser-light",
+  "name": "Light Wood Dresser",
+  "category": "wardrobe",
+  "styles": [
+   "scandinavian",
+   "minimalist"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "MozillaHubs"
+ },
+ {
+  "source": "sketchfab",
+  "src": "e35142f86fee4f7d8920f700fd85c73f",
+  "id": "wardrobe-dresser-mc",
+  "name": "Mid-Century Dresser",
+  "category": "wardrobe",
+  "styles": [
+   "mid-century",
+   "modern"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "3D_for_everyone"
+ },
+ {
+  "source": "sketchfab",
+  "src": "ac92f6e97eaa43c4ad6cb8f7c65ac43f",
+  "id": "sofa-modern-grey",
+  "name": "Modern Grey Sofa",
+  "category": "sofa",
+  "styles": [
+   "modern",
+   "minimalist"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "3dimentionalben"
+ },
+ {
+  "source": "sketchfab",
+  "src": "f3a71dc05afb46f8a2fae64eba0acc64",
+  "id": "sofa-l-shaped",
+  "name": "Grey L-Shaped Sofa",
+  "category": "sofa",
+  "styles": [
+   "modern",
+   "contemporary"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "AleixoAlonso"
+ },
+ {
+  "source": "sketchfab",
+  "src": "f8def3c5f656454c935fe3d626ed9fab",
+  "id": "sofa-mc-teal",
+  "name": "Mid-Century Teal Sofa",
+  "category": "sofa",
+  "styles": [
+   "mid-century",
+   "modern"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "MozillaHubs"
+ },
+ {
+  "source": "sketchfab",
+  "src": "f26063c8ca6a438d9e328b28434d1c44",
+  "id": "chair-mc-teal",
+  "name": "Mid-Century Teal Armchair",
+  "category": "chair",
+  "styles": [
+   "mid-century",
+   "modern"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "MozillaHubs"
+ },
+ {
+  "source": "sketchfab",
+  "src": "afc4b601ed2d434982959be87526909f",
+  "id": "chair-arm-cushion",
+  "name": "Mid-Century Cushioned Armchair",
+  "category": "chair",
+  "styles": [
+   "mid-century",
+   "scandinavian"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "rcaicedo"
+ },
+ {
+  "source": "sketchfab",
+  "src": "2e92000d99d74c8a993badf99be4435a",
+  "id": "chair-accent-black",
+  "name": "Black Upholstered Accent Chair",
+  "category": "chair",
+  "styles": [
+   "modern",
+   "scandinavian"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "augusto.v"
+ },
+ {
+  "source": "sketchfab",
+  "src": "b5b5e6f0f24346a2b0db89c8f2356421",
+  "id": "chair-rattan-lounge",
+  "name": "Rattan Lounge Armchair",
+  "category": "chair",
+  "styles": [
+   "boho",
+   "mid-century"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "Pascal Garten"
+ },
+ {
+  "source": "sketchfab",
+  "src": "65bf302726be4dbdb31fc9394cd83746",
+  "id": "table-night-modern",
+  "name": "Modern Nightstand",
+  "category": "table",
+  "styles": [
+   "mid-century",
+   "scandinavian"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "Blaž Mraz"
+ },
+ {
+  "source": "sketchfab",
+  "src": "f46aef15d75f4ae2886dd688d6c15c68",
+  "id": "table-dine-oak",
+  "name": "Oak Dining Table",
+  "category": "table",
+  "styles": [
+   "scandinavian",
+   "minimalist"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "Арсений Круглов"
+ },
+ {
+  "source": "sketchfab",
+  "src": "e8ffe7c914b24d3488cd1636902d72dd",
+  "id": "sofa-wicker",
+  "name": "Wicker Loveseat",
+  "category": "sofa",
+  "styles": [
+   "coastal",
+   "boho"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "sixonetwo"
+ },
+ {
+  "source": "sketchfab",
+  "src": "6b7a0dae71de4afd96108d4ccf15e291",
+  "id": "chair-rattan-stool",
+  "name": "Rattan Stool",
+  "category": "chair",
+  "styles": [
+   "boho",
+   "coastal"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "Antoine Dresen"
+ },
+ {
+  "source": "sketchfab",
+  "src": "679c0f112f894623917b0599e9bb9d17",
+  "id": "bed-charcoal",
+  "name": "Charcoal Modern Bed",
+  "category": "bed",
+  "styles": [
+   "modern",
+   "minimalist"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "Ankledot"
+ },
+ {
+  "source": "sketchfab",
+  "src": "81ada0e24e1647d8a0d6d0708a696f84",
+  "id": "bed-pine-single",
+  "name": "Pine Single Bed",
+  "category": "bed",
+  "styles": [
+   "rustic",
+   "scandinavian"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "rhcreations"
  }
 ]

@@ -1,0 +1,15 @@
+{
+ "source": "Sketchfab",
+ "title": "Chair",
+ "url": "https://sketchfab.com/3d-models/chair-2e92000d99d74c8a993badf99be4435a",
+ "authors": [
+  "augusto.v"
+ ],
+ "author_url": "https://sketchfab.com/august.varustin",
+ "licence": "CC-BY 4.0",
+ "licence_as_reported": "CC Attribution",
+ "downloaded": "2026-11-17",
+ "id": "chair-accent-black",
+ "name": "Black Upholstered Accent Chair",
+ "changes": "Converted to GLB, re-centred, textures resized to \u22641024 px; product image cropped and converted to WebP."
+}

@@ -25,6 +25,9 @@ for cid in sorted(items):
     if s["source"] == "Poly Haven":
         author = ", ".join(s["authors"]) or "Poly Haven"
         lic = "[CC0](" + LICENCE_URL["CC0"] + ")"
+    elif s["source"] == "Sketchfab":
+        author = ", ".join(f"[{a}]({s['author_url']})" for a in s["authors"])
+        lic = "[CC-BY 4.0](" + LICENCE_URL["CC-BY 4.0"] + ")"
     else:
         people = []
         for l in s.get("legal", []):
@@ -63,6 +66,12 @@ Every file in `images/` and `models/` is listed here. Allowed licences:
   and Darmstadt Graphics Group (DGG), CC-BY 4.0 unless marked CC0. The
   product images for these items are the screenshots published with each
   model, under the same licence.
+- **Sketchfab** (https://sketchfab.com): models published by their authors
+  under CC Attribution (CC BY 4.0), checked at download time
+  (`licence_as_reported` in `sources/<id>.json`). Some were rescaled to real
+  size, turned to face forward, or had loose props removed. The product
+  images for these items are renders of each model made for SpaceAR, under
+  the same licence.
 """
 (assets / "LICENSES.md").write_text(text, encoding="utf-8")
 print(len(rows), "rows")

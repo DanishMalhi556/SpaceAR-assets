@@ -1,0 +1,15 @@
+{
+ "source": "Sketchfab",
+ "title": "Dark Modern Bed",
+ "url": "https://sketchfab.com/3d-models/dark-modern-bed-d3aeb724e09c44af96ef09cd20885220",
+ "authors": [
+  "Ren Viro Store"
+ ],
+ "author_url": "https://sketchfab.com/renviros",
+ "licence": "CC-BY 4.0",
+ "licence_as_reported": "CC Attribution",
+ "downloaded": "2026-11-17",
+ "id": "bed-platform-dark",
+ "name": "Dark Platform Bed",
+ "changes": "Converted to GLB, re-centred, textures resized to \u22641024 px; product image cropped and converted to WebP."
+}

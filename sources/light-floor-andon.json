@@ -1,0 +1,15 @@
+{
+ "source": "Sketchfab",
+ "title": "Japanese Andon standing lamp",
+ "url": "https://sketchfab.com/3d-models/japanese-andon-standing-lamp-b804cad1c6454089870780abf5f31ae3",
+ "authors": [
+  "Akio"
+ ],
+ "author_url": "https://sketchfab.com/akio_illu",
+ "licence": "CC-BY 4.0",
+ "licence_as_reported": "CC Attribution",
+ "downloaded": "2026-11-17",
+ "id": "light-floor-andon",
+ "name": "Japanese Andon Floor Lamp",
+ "changes": "Converted to GLB, re-centred, textures resized to \u22641024 px; product image cropped and converted to WebP."
+}
