@@ -1,0 +1,13 @@
+{
+ "source": "Poly Haven",
+ "title": "Gallinera Chair",
+ "url": "https://polyhaven.com/a/gallinera_chair",
+ "authors": [
+  "Ulan Cabanilla"
+ ],
+ "licence": "CC0",
+ "downloaded": "2026-11-17",
+ "id": "chair-gallinera",
+ "name": "Gallinera Wood Chair",
+ "changes": "Converted to GLB, re-centred, textures resized to \u22641024 px; product image cropped and converted to WebP."
+}

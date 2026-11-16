@@ -1,0 +1,13 @@
+{
+ "source": "Poly Haven",
+ "title": "Chinese Cabinet",
+ "url": "https://polyhaven.com/a/chinese_cabinet",
+ "authors": [
+  "Kirill Sannikov"
+ ],
+ "licence": "CC0",
+ "downloaded": "2026-11-17",
+ "id": "wardrobe-ming",
+ "name": "Ming Tall Cabinet",
+ "changes": "Converted to GLB, re-centred, textures resized to \u22641024 px; product image cropped and converted to WebP."
+}

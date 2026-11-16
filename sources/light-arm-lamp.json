@@ -1,0 +1,14 @@
+{
+ "source": "Poly Haven",
+ "title": "Desk Lamp Arm 01",
+ "url": "https://polyhaven.com/a/desk_lamp_arm_01",
+ "authors": [
+  "Kuutti Siitonen",
+  "Yann Kervran"
+ ],
+ "licence": "CC0",
+ "downloaded": "2026-11-17",
+ "id": "light-arm-lamp",
+ "name": "Swing-Arm Desk Lamp",
+ "changes": "Converted to GLB, re-centred, textures resized to \u22641024 px; product image cropped and converted to WebP."
+}

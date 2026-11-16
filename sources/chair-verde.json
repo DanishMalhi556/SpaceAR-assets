@@ -1,0 +1,13 @@
+{
+ "source": "Poly Haven",
+ "title": "Green Chair 01",
+ "url": "https://polyhaven.com/a/GreenChair_01",
+ "authors": [
+  "Kirill Sannikov"
+ ],
+ "licence": "CC0",
+ "downloaded": "2026-11-17",
+ "id": "chair-verde",
+ "name": "Verde Upholstered Chair",
+ "changes": "Converted to GLB, re-centred, textures resized to \u22641024 px; product image cropped and converted to WebP."
+}

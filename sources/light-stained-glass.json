@@ -1,0 +1,20 @@
+{
+ "source": "Khronos glTF-Sample-Assets",
+ "title": "StainedGlassLamp",
+ "url": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/StainedGlassLamp",
+ "legal": [
+  {
+   "owner": "Wayfair",
+   "artist": "Eric Chadwick",
+   "license": "CC-BY-4.0",
+   "what": "Everything",
+   "year": "2021"
+  }
+ ],
+ "licence": "CC-BY 4.0",
+ "credit": "Wayfair",
+ "downloaded": "2026-11-17",
+ "id": "light-stained-glass",
+ "name": "Stained Glass Table Lamp",
+ "changes": "Converted to GLB, re-centred, textures resized to \u22641024 px; product image cropped and converted to WebP."
+}

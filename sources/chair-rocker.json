@@ -1,0 +1,13 @@
+{
+ "source": "Poly Haven",
+ "title": "Rockingchair 01",
+ "url": "https://polyhaven.com/a/Rockingchair_01",
+ "authors": [
+  "Jorge Camacho"
+ ],
+ "licence": "CC0",
+ "downloaded": "2026-11-17",
+ "id": "chair-rocker",
+ "name": "Heritage Rocking Chair",
+ "changes": "Converted to GLB, re-centred, textures resized to \u22641024 px; product image cropped and converted to WebP."
+}

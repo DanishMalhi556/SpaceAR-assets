@@ -1,0 +1,20 @@
+{
+ "source": "Khronos glTF-Sample-Assets",
+ "title": "AnisotropyBarnLamp",
+ "url": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/AnisotropyBarnLamp",
+ "legal": [
+  {
+   "owner": "Copyright 2023 Wayfair, LLC",
+   "artist": "Eric Chadwick",
+   "license": "CC-BY-4.0",
+   "what": "Everything",
+   "year": "2023"
+  }
+ ],
+ "licence": "CC-BY 4.0",
+ "credit": "Wayfair",
+ "downloaded": "2026-11-17",
+ "id": "light-barn",
+ "name": "Copper Barn Wall Light",
+ "changes": "Converted to GLB, re-centred, textures resized to \u22641024 px; product image cropped and converted to WebP."
+}

@@ -44,13 +44,28 @@ commit it, create a new tag, and update the URLs to the new tag.
    requires credit, and this file is that credit.
 2. **No Git LFS.** jsDelivr can't serve LFS files.
 3. **Keep files small.** jsDelivr won't serve files over 20 MB, and GitHub
-   rejects files over 100 MB. Optimise models before committing, e.g. with
-   [gltf-transform](https://gltf-transform.dev/):
-   ```sh
-   npx @gltf-transform/cli optimize input.glb models/<id>.glb --texture-compress webp --texture-size 1024
-   ```
+   rejects files over 100 MB. Use the pipeline below, which keeps textures
+   as JPEG/PNG (no WebP/KTX2/Draco/Meshopt), so any AR viewer can open the
+   models without extra decoders.
 4. **Check before pushing:** `python tools/check_assets.py` verifies names,
    sizes, formats and that every asset is listed in `LICENSES.md`.
+
+## Pipeline (`tools/`)
+
+`tools/items.json` lists every item: `{source, src, id, name, category,
+styles}`. The scripts work in a scratch folder outside this repo: create it
+and copy `tools/items.json` into it first.
+
+| Step | Command | Result |
+|---|---|---|
+| 1. Download | `python tools/download_assets.py <work>` | Raw models + renders in `<work>/raw/<id>/`, licence info in `<work>/sources.json` |
+| 2. Models | `cd tools && npm install && node optimize.mjs <work> ..` then `node validate.mjs ../models` | `models/<id>.glb`: base centred on the floor, unused data removed, textures ≤ 1024 px; then checked with the Khronos glTF validator |
+| 3. Images | `python tools/make_images.py <work> . <SpaceAR>/backend` | `images/<id>.webp` (800 × 800, padded, transparent where the source is) and `<work>/colors.json` |
+| 4. Credits | `python tools/write_licenses.py <work> .` | `LICENSES.md` and `sources/<id>.json` |
+| 5. Catalog | `python tools/build_seed.py <work> <SpaceAR>/backend v<N>` | `backend/data/catalog_seed.json` in the SpaceAR repo |
+
+Steps 3 and 5 import the SpaceAR backend's colour, style and item-type code,
+so catalog colours and types match what the recommender uses.
 
 ## Releasing a new version
 

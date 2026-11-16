@@ -1,0 +1,13 @@
+{
+ "source": "Poly Haven",
+ "title": "Chinese Console Table",
+ "url": "https://polyhaven.com/a/chinese_console_table",
+ "authors": [
+  "Kirill Sannikov"
+ ],
+ "licence": "CC0",
+ "downloaded": "2026-11-17",
+ "id": "table-console-ming",
+ "name": "Ming Console Table",
+ "changes": "Converted to GLB, re-centred, textures resized to \u22641024 px; product image cropped and converted to WebP."
+}

@@ -1,0 +1,13 @@
+{
+ "source": "Poly Haven",
+ "title": "Chinese Stool",
+ "url": "https://polyhaven.com/a/chinese_stool",
+ "authors": [
+  "Kirill Sannikov"
+ ],
+ "licence": "CC0",
+ "downloaded": "2026-11-17",
+ "id": "chair-ming-stool",
+ "name": "Ming Carved Stool",
+ "changes": "Converted to GLB, re-centred, textures resized to \u22641024 px; product image cropped and converted to WebP."
+}

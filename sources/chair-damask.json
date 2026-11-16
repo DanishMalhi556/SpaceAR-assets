@@ -1,0 +1,20 @@
+{
+ "source": "Khronos glTF-Sample-Assets",
+ "title": "ChairDamaskPurplegold",
+ "url": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/ChairDamaskPurplegold",
+ "legal": [
+  {
+   "owner": "Wayfair",
+   "artist": "Eric Chadwick",
+   "license": "CC-BY-4.0",
+   "what": "Models and Textures",
+   "year": "2021"
+  }
+ ],
+ "licence": "CC-BY 4.0",
+ "credit": "Wayfair",
+ "downloaded": "2026-11-17",
+ "id": "chair-damask",
+ "name": "Damask Accent Chair",
+ "changes": "Converted to GLB, re-centred, textures resized to \u22641024 px; product image cropped and converted to WebP."
+}

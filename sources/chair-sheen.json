@@ -1,0 +1,20 @@
+{
+ "source": "Khronos glTF-Sample-Assets",
+ "title": "SheenChair",
+ "url": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/SheenChair",
+ "legal": [
+  {
+   "owner": "Wayfair, LLC",
+   "artist": "Eric Chadwick",
+   "license": "CC0-1.0",
+   "what": "Everything",
+   "year": "2020"
+  }
+ ],
+ "licence": "CC0",
+ "credit": "Wayfair",
+ "downloaded": "2026-11-17",
+ "id": "chair-sheen",
+ "name": "Velvet Lounge Chair",
+ "changes": "Converted to GLB, re-centred, textures resized to \u22641024 px; product image cropped and converted to WebP."
+}

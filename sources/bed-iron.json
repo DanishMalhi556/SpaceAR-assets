@@ -1,0 +1,13 @@
+{
+ "source": "Poly Haven",
+ "title": "Old Bed Frame",
+ "url": "https://polyhaven.com/a/old_bed_frame",
+ "authors": [
+  "Luca B"
+ ],
+ "licence": "CC0",
+ "downloaded": "2026-11-17",
+ "id": "bed-iron",
+ "name": "Iron Bed Frame",
+ "changes": "Converted to GLB, re-centred, textures resized to \u22641024 px; product image cropped and converted to WebP."
+}

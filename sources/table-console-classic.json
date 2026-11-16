@@ -1,0 +1,13 @@
+{
+ "source": "Poly Haven",
+ "title": "Classic Console 01",
+ "url": "https://polyhaven.com/a/ClassicConsole_01",
+ "authors": [
+  "Kirill Sannikov"
+ ],
+ "licence": "CC0",
+ "downloaded": "2026-11-17",
+ "id": "table-console-classic",
+ "name": "Classic Console Table",
+ "changes": "Converted to GLB, re-centred, textures resized to \u22641024 px; product image cropped and converted to WebP."
+}

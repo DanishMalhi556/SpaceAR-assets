@@ -1,0 +1,13 @@
+{
+ "source": "Poly Haven",
+ "title": "Industrial Pipe Lamp",
+ "url": "https://polyhaven.com/a/industrial_pipe_lamp",
+ "authors": [
+  "Mateusz Sadek"
+ ],
+ "licence": "CC0",
+ "downloaded": "2026-11-17",
+ "id": "light-pipe-lamp",
+ "name": "Pipe Table Lamp",
+ "changes": "Converted to GLB, re-centred, textures resized to \u22641024 px; product image cropped and converted to WebP."
+}

@@ -1,0 +1,13 @@
+{
+ "source": "Poly Haven",
+ "title": "Chinese Chandelier",
+ "url": "https://polyhaven.com/a/chinese_chandelier",
+ "authors": [
+  "Kirill Sannikov"
+ ],
+ "licence": "CC0",
+ "downloaded": "2026-11-17",
+ "id": "light-lantern-ming",
+ "name": "Carved Wood Chandelier",
+ "changes": "Converted to GLB, re-centred, textures resized to \u22641024 px; product image cropped and converted to WebP."
+}

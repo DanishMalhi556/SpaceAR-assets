@@ -1,0 +1,13 @@
+{
+ "source": "Poly Haven",
+ "title": "Chinese Tea Table",
+ "url": "https://polyhaven.com/a/chinese_tea_table",
+ "authors": [
+  "Kirill Sannikov"
+ ],
+ "licence": "CC0",
+ "downloaded": "2026-11-17",
+ "id": "table-tea",
+ "name": "Carved Tea Table",
+ "changes": "Converted to GLB, re-centred, textures resized to \u22641024 px; product image cropped and converted to WebP."
+}

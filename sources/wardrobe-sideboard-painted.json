@@ -1,0 +1,13 @@
+{
+ "source": "Poly Haven",
+ "title": "Painted Wooden Cabinet",
+ "url": "https://polyhaven.com/a/painted_wooden_cabinet",
+ "authors": [
+  "Kirill Sannikov"
+ ],
+ "licence": "CC0",
+ "downloaded": "2026-11-17",
+ "id": "wardrobe-sideboard-painted",
+ "name": "Painted Sideboard",
+ "changes": "Converted to GLB, re-centred, textures resized to \u22641024 px; product image cropped and converted to WebP."
+}

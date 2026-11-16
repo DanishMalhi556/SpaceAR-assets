@@ -1,0 +1,13 @@
+{
+ "source": "Poly Haven",
+ "title": "Arm Chair 01",
+ "url": "https://polyhaven.com/a/ArmChair_01",
+ "authors": [
+  "Kirill Sannikov"
+ ],
+ "licence": "CC0",
+ "downloaded": "2026-11-17",
+ "id": "chair-victoria",
+ "name": "Victoria Wingback Armchair",
+ "changes": "Converted to GLB, re-centred, textures resized to \u22641024 px; product image cropped and converted to WebP."
+}

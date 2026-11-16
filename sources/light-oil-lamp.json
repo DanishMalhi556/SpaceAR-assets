@@ -1,0 +1,13 @@
+{
+ "source": "Poly Haven",
+ "title": "Vintage Oil Lamp",
+ "url": "https://polyhaven.com/a/vintage_oil_lamp",
+ "authors": [
+  "Monsta3D"
+ ],
+ "licence": "CC0",
+ "downloaded": "2026-11-17",
+ "id": "light-oil-lamp",
+ "name": "Vintage Oil-Style Lamp",
+ "changes": "Converted to GLB, re-centred, textures resized to \u22641024 px; product image cropped and converted to WebP."
+}

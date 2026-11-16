@@ -1,0 +1,800 @@
+[
+ {
+  "source": "polyhaven",
+  "src": "Sofa_01",
+  "id": "sofa-gothic",
+  "name": "Gothic Carved Sofa",
+  "category": "sofa",
+  "styles": [
+   "classic",
+   "traditional"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "sofa_02",
+  "id": "sofa-saddle",
+  "name": "Saddle Leather Sofa",
+  "category": "sofa",
+  "styles": [
+   "mid-century",
+   "classic"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "sofa_03",
+  "id": "sofa-manor",
+  "name": "Manor Tufted Sofa",
+  "category": "sofa",
+  "styles": [
+   "classic",
+   "luxury"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "chinese_sofa",
+  "id": "sofa-ming",
+  "name": "Ming Carved Wood Sofa",
+  "category": "sofa",
+  "styles": [
+   "traditional",
+   "japandi"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "vintage_day_bed",
+  "id": "sofa-daybed",
+  "name": "Vintage Wooden Daybed",
+  "category": "sofa",
+  "styles": [
+   "classic",
+   "rustic"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "ArmChair_01",
+  "id": "chair-victoria",
+  "name": "Victoria Wingback Armchair",
+  "category": "chair",
+  "styles": [
+   "classic",
+   "traditional"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "GreenChair_01",
+  "id": "chair-verde",
+  "name": "Verde Upholstered Chair",
+  "category": "chair",
+  "styles": [
+   "classic"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "Ottoman_01",
+  "id": "chair-ottoman",
+  "name": "Tufted Leather Ottoman",
+  "category": "chair",
+  "styles": [
+   "classic",
+   "luxury"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "Rockingchair_01",
+  "id": "chair-rocker",
+  "name": "Heritage Rocking Chair",
+  "category": "chair",
+  "styles": [
+   "rustic",
+   "classic"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "chinese_armchair",
+  "id": "chair-ming",
+  "name": "Ming Wood Armchair",
+  "category": "chair",
+  "styles": [
+   "traditional",
+   "japandi"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "chinese_stool",
+  "id": "chair-ming-stool",
+  "name": "Ming Carved Stool",
+  "category": "chair",
+  "styles": [
+   "traditional",
+   "japandi"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "dining_chair_02",
+  "id": "chair-dine-leather",
+  "name": "Leather Dining Chair",
+  "category": "chair",
+  "styles": [
+   "modern",
+   "contemporary"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "gallinera_chair",
+  "id": "chair-gallinera",
+  "name": "Gallinera Wood Chair",
+  "category": "chair",
+  "styles": [
+   "traditional",
+   "rustic"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "mid_century_lounge_chair",
+  "id": "chair-lounge-mc",
+  "name": "Mid-Century Lounge Chair",
+  "category": "chair",
+  "styles": [
+   "mid-century",
+   "modern"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "modern_arm_chair_01",
+  "id": "chair-arm-modern",
+  "name": "Modern Leather Armchair",
+  "category": "chair",
+  "styles": [
+   "modern",
+   "contemporary"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "painted_wooden_chair_01",
+  "id": "chair-farmhouse",
+  "name": "Farmhouse Dining Chair",
+  "category": "chair",
+  "styles": [
+   "rustic",
+   "scandinavian"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "painted_wooden_chair_02",
+  "id": "chair-farm-arm",
+  "name": "Farmhouse Armchair",
+  "category": "chair",
+  "styles": [
+   "rustic"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "bar_chair_round_01",
+  "id": "chair-bar-round",
+  "name": "Round Bar Stool",
+  "category": "chair",
+  "styles": [
+   "classic",
+   "industrial"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "metal_stool_01",
+  "id": "chair-stool-leather",
+  "name": "Leather-Top Metal Stool",
+  "category": "chair",
+  "styles": [
+   "industrial"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "metal_stool_03",
+  "id": "chair-barstool-steel",
+  "name": "Steel Backrest Barstool",
+  "category": "chair",
+  "styles": [
+   "industrial"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "coffee_table_round_01",
+  "id": "table-marble-round",
+  "name": "Round Marble Coffee Table",
+  "category": "table",
+  "styles": [
+   "modern",
+   "luxury"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "modern_coffee_table_01",
+  "id": "table-stone-oak",
+  "name": "Stone & Oak Coffee Table",
+  "category": "table",
+  "styles": [
+   "modern",
+   "minimalist"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "modern_coffee_table_02",
+  "id": "table-stone-square",
+  "name": "Square Stone Coffee Table",
+  "category": "table",
+  "styles": [
+   "modern",
+   "contemporary"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "CoffeeTable_01",
+  "id": "table-painted-coffee",
+  "name": "Painted Vintage Coffee Table",
+  "category": "table",
+  "styles": [
+   "rustic",
+   "classic"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "gothic_coffee_table",
+  "id": "table-gothic-coffee",
+  "name": "Gothic Round Coffee Table",
+  "category": "table",
+  "styles": [
+   "classic"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "industrial_coffee_table",
+  "id": "table-steel-coffee",
+  "name": "Steel Frame Coffee Table",
+  "category": "table",
+  "styles": [
+   "industrial"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "chinese_tea_table",
+  "id": "table-tea",
+  "name": "Carved Tea Table",
+  "category": "table",
+  "styles": [
+   "traditional",
+   "japandi"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "side_table_01",
+  "id": "table-side-oak",
+  "name": "Oak Side Table",
+  "category": "table",
+  "styles": [
+   "minimalist",
+   "scandinavian"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "side_table_tall_01",
+  "id": "table-side-tall",
+  "name": "Tall Vintage Side Table",
+  "category": "table",
+  "styles": [
+   "classic"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "WoodenTable_02",
+  "id": "table-side-mini",
+  "name": "Mini Round Side Table",
+  "category": "table",
+  "styles": [
+   "rustic"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "ClassicNightstand_01",
+  "id": "table-night-classic",
+  "name": "Classic Nightstand",
+  "category": "table",
+  "styles": [
+   "classic"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "painted_wooden_nightstand",
+  "id": "table-night-painted",
+  "name": "Painted Nightstand",
+  "category": "table",
+  "styles": [
+   "rustic"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "ClassicConsole_01",
+  "id": "table-console-classic",
+  "name": "Classic Console Table",
+  "category": "table",
+  "styles": [
+   "classic",
+   "traditional"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "chinese_console_table",
+  "id": "table-console-ming",
+  "name": "Ming Console Table",
+  "category": "table",
+  "styles": [
+   "traditional",
+   "japandi"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "gallinera_table",
+  "id": "table-gallinera",
+  "name": "Gallinera Low Table",
+  "category": "table",
+  "styles": [
+   "traditional",
+   "rustic"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "small_wooden_table_01",
+  "id": "table-small-wood",
+  "name": "Small Wooden Table",
+  "category": "table",
+  "styles": [
+   "rustic"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "round_wooden_table_01",
+  "id": "table-dine-round",
+  "name": "Round Dining Table",
+  "category": "table",
+  "styles": [
+   "classic"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "round_wooden_table_02",
+  "id": "table-cafe-round",
+  "name": "Round Cafe Table",
+  "category": "table",
+  "styles": [
+   "classic",
+   "traditional"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "painted_wooden_table",
+  "id": "table-farm-dining",
+  "name": "Farmhouse Dining Table",
+  "category": "table",
+  "styles": [
+   "rustic",
+   "scandinavian"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "WoodenTable_03",
+  "id": "table-iron-wood",
+  "name": "Iron & Wood Table",
+  "category": "table",
+  "styles": [
+   "industrial",
+   "rustic"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "GothicBed_01",
+  "id": "bed-gothic",
+  "name": "Gothic Four-Poster Bed",
+  "category": "bed",
+  "styles": [
+   "classic",
+   "traditional"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "old_bed_frame",
+  "id": "bed-iron",
+  "name": "Iron Bed Frame",
+  "category": "bed",
+  "styles": [
+   "industrial",
+   "rustic"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "GothicCabinet_01",
+  "id": "wardrobe-gothic",
+  "name": "Gothic Tall Cabinet",
+  "category": "wardrobe",
+  "styles": [
+   "classic"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "chinese_cabinet",
+  "id": "wardrobe-ming",
+  "name": "Ming Tall Cabinet",
+  "category": "wardrobe",
+  "styles": [
+   "traditional",
+   "japandi"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "painted_wooden_cabinet_02",
+  "id": "wardrobe-painted",
+  "name": "Painted Tall Cupboard",
+  "category": "wardrobe",
+  "styles": [
+   "rustic"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "vintage_cabinet_01",
+  "id": "wardrobe-vintage",
+  "name": "Vintage Display Cabinet",
+  "category": "wardrobe",
+  "styles": [
+   "classic",
+   "traditional"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "GothicCommode_01",
+  "id": "wardrobe-commode",
+  "name": "Gothic Commode Dresser",
+  "category": "wardrobe",
+  "styles": [
+   "classic"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "painted_wooden_cabinet",
+  "id": "wardrobe-sideboard-painted",
+  "name": "Painted Sideboard",
+  "category": "wardrobe",
+  "styles": [
+   "rustic"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "drawer_cabinet",
+  "id": "wardrobe-drawers-modern",
+  "name": "Modern Drawer Cabinet",
+  "category": "wardrobe",
+  "styles": [
+   "modern",
+   "industrial"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "modern_wooden_cabinet",
+  "id": "wardrobe-sideboard-modern",
+  "name": "Modern Low Sideboard",
+  "category": "wardrobe",
+  "styles": [
+   "modern",
+   "minimalist"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "Shelf_01",
+  "id": "wardrobe-shelf-wood",
+  "name": "Wooden Bookshelf",
+  "category": "wardrobe",
+  "styles": [
+   "scandinavian",
+   "minimalist"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "steel_frame_shelves_01",
+  "id": "wardrobe-shelf-steel",
+  "name": "Steel & Wood Bookcase",
+  "category": "wardrobe",
+  "styles": [
+   "industrial",
+   "modern"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "steel_frame_shelves_03",
+  "id": "wardrobe-shelf-wide",
+  "name": "Wide Display Shelving",
+  "category": "wardrobe",
+  "styles": [
+   "contemporary",
+   "minimalist"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "wooden_display_shelves_01",
+  "id": "wardrobe-cube-shelf",
+  "name": "Pine Cube Shelves",
+  "category": "wardrobe",
+  "styles": [
+   "scandinavian",
+   "modern"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "Chandelier_01",
+  "id": "light-chandelier-1",
+  "name": "Ornate Brass Chandelier",
+  "category": "lighting",
+  "styles": [
+   "classic",
+   "luxury"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "Chandelier_02",
+  "id": "light-chandelier-2",
+  "name": "Elegant Crystal Chandelier",
+  "category": "lighting",
+  "styles": [
+   "luxury",
+   "classic"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "Chandelier_03",
+  "id": "light-chandelier-3",
+  "name": "Grand Tiered Chandelier",
+  "category": "lighting",
+  "styles": [
+   "luxury",
+   "traditional"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "chinese_chandelier",
+  "id": "light-lantern-ming",
+  "name": "Carved Wood Chandelier",
+  "category": "lighting",
+  "styles": [
+   "traditional",
+   "japandi"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "lantern_chandelier_01",
+  "id": "light-lantern-victorian",
+  "name": "Victorian Lantern Pendant",
+  "category": "lighting",
+  "styles": [
+   "classic"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "modern_ceiling_lamp_01",
+  "id": "light-globe-pendant",
+  "name": "Glass Globe Pendant",
+  "category": "lighting",
+  "styles": [
+   "modern",
+   "minimalist"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "hanging_industrial_lamp",
+  "id": "light-dome-pendant",
+  "name": "Industrial Dome Pendant",
+  "category": "lighting",
+  "styles": [
+   "industrial"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "desk_lamp_arm_01",
+  "id": "light-arm-lamp",
+  "name": "Swing-Arm Desk Lamp",
+  "category": "lighting",
+  "styles": [
+   "industrial",
+   "modern"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "industrial_pipe_lamp",
+  "id": "light-pipe-lamp",
+  "name": "Pipe Table Lamp",
+  "category": "lighting",
+  "styles": [
+   "industrial"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "vintage_oil_lamp",
+  "id": "light-oil-lamp",
+  "name": "Vintage Oil-Style Lamp",
+  "category": "lighting",
+  "styles": [
+   "classic",
+   "rustic"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "wooden_lantern_01",
+  "id": "light-wood-lantern",
+  "name": "Farmhouse Wood Lantern",
+  "category": "lighting",
+  "styles": [
+   "rustic",
+   "boho"
+  ]
+ },
+ {
+  "source": "polyhaven",
+  "src": "industrial_wall_sconce",
+  "id": "light-sconce",
+  "name": "Vintage Wall Sconce",
+  "category": "lighting",
+  "styles": [
+   "rustic",
+   "industrial"
+  ]
+ },
+ {
+  "source": "khronos",
+  "src": "GlamVelvetSofa",
+  "id": "sofa-glam-velvet",
+  "name": "Glam Velvet Sofa",
+  "category": "sofa",
+  "styles": [
+   "modern",
+   "luxury"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "Wayfair"
+ },
+ {
+  "source": "khronos",
+  "src": "SheenChair",
+  "id": "chair-sheen",
+  "name": "Velvet Lounge Chair",
+  "category": "chair",
+  "styles": [
+   "modern",
+   "contemporary"
+  ],
+  "licence": "CC0",
+  "credit": "Wayfair"
+ },
+ {
+  "source": "khronos",
+  "src": "ChairDamaskPurplegold",
+  "id": "chair-damask",
+  "name": "Damask Accent Chair",
+  "category": "chair",
+  "styles": [
+   "classic",
+   "luxury"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "Wayfair"
+ },
+ {
+  "source": "khronos",
+  "src": "AnisotropyBarnLamp",
+  "id": "light-barn",
+  "name": "Copper Barn Wall Light",
+  "category": "lighting",
+  "styles": [
+   "industrial",
+   "rustic"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "Wayfair"
+ },
+ {
+  "source": "khronos",
+  "src": "IridescenceLamp",
+  "id": "light-iridescent",
+  "name": "Iridescent Table Lamp",
+  "category": "lighting",
+  "styles": [
+   "modern",
+   "contemporary"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "Wayfair"
+ },
+ {
+  "source": "khronos",
+  "src": "LightsPunctualLamp",
+  "id": "light-desk-classic",
+  "name": "Art Nouveau Floor Lamp",
+  "category": "lighting",
+  "styles": [
+   "classic",
+   "luxury"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "DGG"
+ },
+ {
+  "source": "khronos",
+  "src": "StainedGlassLamp",
+  "id": "light-stained-glass",
+  "name": "Stained Glass Table Lamp",
+  "category": "lighting",
+  "styles": [
+   "classic",
+   "traditional"
+  ],
+  "licence": "CC-BY 4.0",
+  "credit": "Wayfair"
+ }
+]
