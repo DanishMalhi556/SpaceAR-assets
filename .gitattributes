@@ -1,0 +1,6 @@
+# Assets are binary; never convert line endings.
+*.glb  binary
+*.webp binary
+*.png  binary
+*.jpg  binary
+# Do NOT add Git LFS rules here: jsDelivr cannot serve LFS files.
