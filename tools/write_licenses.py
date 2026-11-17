@@ -4,6 +4,7 @@
 """
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -31,7 +32,7 @@ for cid in sorted(items):
     else:
         people = []
         for l in s.get("legal", []):
-            who = l.get("owner") or l.get("artist") or ""
+            who = re.sub(r"^(Copyright|©)\s*\d{4}\s*", "", l.get("owner") or l.get("artist") or "")
             if l.get("artist") and l.get("artist") != who:
                 who += f" ({l['artist']})"
             if who and who not in people:
