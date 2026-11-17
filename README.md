@@ -60,7 +60,7 @@ and copy `tools/items.json` into it first.
 |---|---|---|
 | 1. Download | `python tools/download_assets.py <work> [items file]` | Raw models + renders in `<work>/raw/<id>/`, licence info merged into `<work>/sources.json` |
 | 2. Models | `cd tools && npm install && node optimize.mjs <work> .. [id,id]` then `node validate.mjs ../models` | `models/<id>.glb`: real-world scale, front facing +Z, base centred on the floor, metal-rough materials, textures ≤ 1024 px; then the Khronos glTF validator |
-| 2b. Check | `node inspect.mjs <glb>...` and `node names.mjs <glb>...` | Part sizes (to spot wrong units or stray props) and hidden brand names in part/material names |
+| 2b. Check | `node tris.mjs ../models`, `node inspect.mjs <glb>...` and `node names.mjs <glb>...` | Triangle counts (SRS 8.3: max 50,000; `optimize.mjs` simplifies anything over it with meshoptimizer), part sizes (to spot wrong units or stray props) and hidden brand names in part/material names |
 | 2c. Renders | `node render.mjs ../models <work>/renders <id,id>` (`RENDER_SIDES=1` for all four sides) | Transparent product shots from headless Chrome + three.js; copy to `<work>/raw/<id>/render.png` for items without a clean source image |
 | 3. Images | `python tools/make_images.py <work> . <SpaceAR>/backend [id,id]` | `images/<id>.webp` (800 × 800, padded, transparent where the source is) and `<work>/colors.json` |
 | 4. Credits | `python tools/write_licenses.py <work> .` | `LICENSES.md` and `sources/<id>.json` |

@@ -8,8 +8,28 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { NodeIO } from '@gltf-transform/core';
 import { ALL_EXTENSIONS } from '@gltf-transform/extensions';
-import { center, dedup, metalRough, prune, textureCompress, getBounds } from '@gltf-transform/functions';
+import { center, dedup, metalRough, prune, simplify, textureCompress, getBounds, weld } from '@gltf-transform/functions';
+import { MeshoptSimplifier } from 'meshoptimizer';
 import sharp from 'sharp';
+
+// SRS 8.3: at most 50,000 triangles per model (30 FPS on mid-range phones).
+const MAX_TRIANGLES = 50000;
+const TARGET_TRIANGLES = 48000; // a little headroom under the limit
+
+/** Triangles drawn per model: counted per node, since a mesh used twice is drawn twice. */
+function countTriangles(doc) {
+  let tris = 0;
+  for (const node of doc.getRoot().listNodes()) {
+    const mesh = node.getMesh();
+    if (!mesh) continue;
+    for (const p of mesh.listPrimitives()) {
+      if (p.getMode() !== 4) continue; // TRIANGLES
+      const idx = p.getIndices();
+      tris += (idx ? idx.getCount() : p.getAttribute('POSITION').getCount()) / 3;
+    }
+  }
+  return Math.round(tris);
+}
 
 const [work, assets] = process.argv.slice(2);
 const io = new NodeIO().registerExtensions(ALL_EXTENSIONS);
@@ -75,13 +95,26 @@ for (const id of fs.readdirSync(path.join(work, 'raw')).sort()) {
     prune({ keepAttributes: true }), // keep UV sets that texture transforms refer to
     textureCompress({ encoder: sharp, resize: [1024, 1024], quality: 85 }),
   );
+  // Over the triangle budget: weld duplicate vertices, then simplify with
+  // meshoptimizer, loosening the error bound only if the target isn't reached.
+  let tris = countTriangles(doc);
+  const originalTris = tris;
+  if (tris > MAX_TRIANGLES) {
+    await MeshoptSimplifier.ready;
+    await doc.transform(weld());
+    for (const error of [0.005, 0.01, 0.02, 0.05]) {
+      await doc.transform(simplify({ simplifier: MeshoptSimplifier, ratio: TARGET_TRIANGLES / tris, error }));
+      tris = countTriangles(doc);
+      if (tris <= MAX_TRIANGLES) break;
+    }
+  }
   const scene = doc.getRoot().getDefaultScene() ?? doc.getRoot().listScenes()[0];
   const { min, max } = getBounds(scene);
   const dims = max.map((v, i) => +(v - min[i]).toFixed(3)); // metres: x, y(up), z
   const out = path.join(assets, 'models', `${id}.glb`);
   await io.write(out, doc);
   const size = fs.statSync(out).size;
-  report[id] = { bytes: size, w_m: dims[0], h_m: dims[1], d_m: dims[2] };
-  console.log(`${id.padEnd(28)} ${(size / 1e6).toFixed(2).padStart(6)} MB  ${dims.map((v) => Math.round(v * 100)).join(' x ')} cm (W x H x D)`);
+  report[id] = { bytes: size, w_m: dims[0], h_m: dims[1], d_m: dims[2], triangles: tris };
+  console.log(`${id.padEnd(28)} ${(size / 1e6).toFixed(2).padStart(6)} MB  ${String(tris).padStart(6)} tris${originalTris !== tris ? ` (was ${originalTris})` : ''}  ${dims.map((v) => Math.round(v * 100)).join(' x ')} cm (W x H x D)`);
 }
 fs.writeFileSync(path.join(work, 'models_report.json'), JSON.stringify(report, null, 1));
